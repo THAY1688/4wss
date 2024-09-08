@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+nav{
+    width: 100%;
+    padding: 20px 30px;
+}
+ul{
+    margin-left: -20px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+li a{
+    border-radius: 16px;
+    color: black;
+    padding: 10px;
+    border: none;
+    background-color: rgb(234, 234, 234);
+    margin: auto;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Archivo", sans-serif;
+}
+li a:hover{
+    background-color: rgb(187, 214, 255);
+}
+header{
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+    border: none;
+    border-radius: 16px;
+    color: black;
+    margin-top: 24px;
+    padding: 8px;
+    font-size: 16px;
+    width: 80%;
+    margin-left: 135px;
+}
+header:hover{
+    background-color: rgb(202, 202, 255);
+}
+.container{
+    padding: 10px;
+    margin-top: 50px;
+}
+table{
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+caption{
+    font-weight: bold;
+    background-color: whitesmoke;
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+    color: red;
+    border: 2px solid black;
+    padding: 8px;
+    font-size: x-large;
+}
+caption:hover{
+    background-color: aquamarine;
+}
+table, th, td{ 
+    border: 2px solid ; 
+    border-collapse: collapse; 
+    width: 82%; 
+    height: 5vh; 
+    text-align: start; 
+    margin: auto;   
+    padding: 10px;   
+    color: black;
+    background-color: rgb(225, 225, 225);
+}
+th{ 
+    border-bottom: solid 1px; 
+    font-family: sans-serif;
+}
+th:hover{
+    background-color: rgb(219, 219, 255);
+}
+td{
+    font-family: sans-serif;
+    font-weight: bold;   
+}
+td:hover{
+    background-color: rgb(126, 255, 126);
+}
